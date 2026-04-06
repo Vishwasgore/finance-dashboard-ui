@@ -1,4 +1,4 @@
-import { ArrowUpRight, ArrowDownRight, Download, Copy } from "lucide-react";
+import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 
 interface Props {
   income: number;
@@ -29,9 +29,6 @@ const StatCards = ({ income, expenses }: Props) => {
       <div className="bg-income rounded-2xl p-5 hover:shadow-md transition-shadow">
         <div className="flex items-start justify-between mb-3">
           <span className="text-sm font-medium text-income-foreground/70">Income</span>
-          <button className="p-1.5 rounded-lg hover:bg-income-foreground/10 transition-colors" title="Export">
-            <Download className="w-4 h-4 text-income-foreground/50" />
-          </button>
         </div>
         <div className="flex items-center gap-2 mb-1">
           <span className="text-2xl font-bold text-income-foreground">
@@ -46,9 +43,6 @@ const StatCards = ({ income, expenses }: Props) => {
       <div className="bg-expense rounded-2xl p-5 hover:shadow-md transition-shadow">
         <div className="flex items-start justify-between mb-3">
           <span className="text-sm font-medium text-expense-foreground/70">Expenses</span>
-          <button className="p-1.5 rounded-lg hover:bg-expense-foreground/10 transition-colors" title="Export">
-            <Copy className="w-4 h-4 text-expense-foreground/50" />
-          </button>
         </div>
         <div className="flex items-center gap-2 mb-1">
           <span className="text-2xl font-bold text-expense-foreground">

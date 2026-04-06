@@ -1,4 +1,4 @@
-import { Download, TrendingUp } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 
 interface Props {
   balance: number;
@@ -23,9 +23,6 @@ const BalanceCard = ({ balance, income, expenses }: Props) => {
     <div className="bg-card rounded-2xl p-6 shadow-sm border border-border hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between mb-6">
         <h2 className="text-lg font-medium text-muted-foreground">Total Balance</h2>
-        <button className="p-2 rounded-lg hover:bg-secondary transition-colors" title="Export">
-          <Download className="w-4 h-4 text-muted-foreground" />
-        </button>
       </div>
 
       <div className="flex items-end gap-3 mb-2">
