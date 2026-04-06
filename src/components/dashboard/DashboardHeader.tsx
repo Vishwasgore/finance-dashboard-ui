@@ -72,9 +72,9 @@ const DashboardHeader = ({
 
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground text-xs font-semibold">
-            AR
+            VG
           </div>
-          <span className="text-sm font-medium text-foreground">Alex Rivera</span>
+          <span className="text-sm font-medium text-foreground">Vishwas Gore</span>
           <span className="text-sm text-muted-foreground">• Personal</span>
         </div>
 
