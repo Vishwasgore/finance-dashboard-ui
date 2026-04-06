@@ -2,12 +2,12 @@
 
 A personal finance dashboard built for the Frontend Internship Assignment.
 
+**Live demo:** https://finance-dashboard-ui-gamma-lime.vercel.app
+
 ![Dashboard Overview](public/screenshots/dashboard.png)
 ![Spending Breakdown & Transactions](public/screenshots/transactions.png)
 
 The goal was to build something clean and usable — not over-engineered. No backend, no auth, just a frontend that handles real interactions well.
-
-**Live demo:** https://finance-dashboard-ui-gamma-lime.vercel.app
 
 ---
 
